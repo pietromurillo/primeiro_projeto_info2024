@@ -1,0 +1,139 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #D9C8B4;
+    color: #333;
+
+}
+.container{
+    width: 100%;
+}
+ 
+header {
+    background-color:  #A67C49;
+    color: #fff;
+    padding: 10px 0;
+}
+ 
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+ 
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+ 
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+ 
+#formulario {
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+    text-align: left;
+}
+ 
+#formulario input[type="text"],
+#formulario input[type="email"],
+#formulario textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+ 
+#formulario textarea {
+    height: 100px;
+}
+ 
+#formulario input[type="submit"] {
+    display: block;
+    width: 100%;
+    margin-top: 15px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #656667;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.35s;
+}
+ 
+#formulario input[type="submit"]:hover {
+    background-color: #828485;
+}
+ 
+main {
+    padding: 20px;
+    text-align: center;
+}
+ 
+h1 {
+    color: #333;
+}
+ 
+section {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px auto;
+    border-radius: 8px;
+    max-width: 1000px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+ 
+.portfolio {
+    width: 50%;
+}
+ 
+.portfolio ul li {
+    width: 100%;
+    list-style-type: none;
+    text-align: center;
+}
+ 
+footer {
+    background-color: #333;
+    color: #fff;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+
+.foto-pietro{
+   width: 250px;
+   height: 300px;
+   border-radius: 5%;
+}
+.foto{
+    max-width: 250px;
+    max-height: 500px;
+}
+.descricao{
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px auto;
+    border-radius: 8px;
+    max-width: 600px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+@media (max-width: 600px) {
+    section {
+        background-color: #fff;
+        padding: 20px;
+        margin: 20px auto;
+        border-radius: 8px;
+        max-width: 600px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+}
